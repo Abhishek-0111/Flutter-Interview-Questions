@@ -42,33 +42,34 @@ NetworkImage class creates an object the provides an image from the src URL pass
 
 Mixins are used for a unique kind of inheritance, they allow other classes to inherit it's baked in methods for use, without actually being a child of the parent Mixin class. In simple words, Mixins are our usual normal classes from which we can borrow methods, without extending the class.
 
-What is hot reload in flutter?
+8. What is hot reload in flutter?
 
 Flutter’s hot reload feature helps you quickly and easily experiment, build UIs, add features, and fix bugs. Hot reload works by injecting updated source code files into the running Dart Virtual Machine (VM). After the VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree, allowing you to quickly view the effects of your changes.
 
-What are the two types of Streams available in Flutter?
+9. What are the two types of Streams available in Flutter?
 
 There are two types of Streams available in Flutter which are: ..* Single subscription streams ..* Broadcast streams Single subscription streams : It is a popular and commom type of stream. It consist of series of events that are parts of a large whole. The events here have to be delivered in a defined order without even missing a single event.
 
 Broadcast streams : This stream is meant for the individual messages that can be handeled one at a time. Multiple listener can listen at a time and it also gives the user the chance to listen after the cancellation of the previous subscription.
 
-What is a Flutter Inspector ?
+10. What is a Flutter Inspector ?
 
 Flutter Inspector is a tool that helps in visualizing and exploring the widget trees. It also helps in understanding the present layout and rectify the layout issues.
 
-Is CI/CD possible in Flutter?
+11. Is CI/CD possible in Flutter?
 
 Yes, CI/CD is possible in Flutter. There is CI/CD tool dedicated to Flutter the name is CODE MAGIC. With the help of CODE MAGIC we can easily automate the process of CI/CD for flutter apps from single automation.
 
-What’s the difference between hot reload and hot restart? Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
+12. What’s the difference between hot reload and hot restart? 
+  Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
 
-What are Null-aware operators in Flutter ?
+13. What are Null-aware operators in Flutter ?
 
 Dart offers some handy operators for dealing with values that might be null.
 
 a.One is the ??= assignment operator, which assigns a value to a variable only if that variable is currently null
 b.Another null-aware operator is ??, which returns the expression on its left unless that expression’s value is null, in which case it evaluates and returns the expression on its right
 
-What is use of Navigation.push and Navigation.pop function?
+14. What is use of Navigation.push and Navigation.pop function?
 
 The push method is used to add a route to the stack of routes managed by the navigator. The pop method is used to remove the current route from the stack of routes managed by the navigator.
